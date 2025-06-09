@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/882cf94913.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+             <img src="image/logo.png" class="logo"> 
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Piyush Rana </span><br>From Nepal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>I’m a passionate Web Developer with a solid foundation in front-end and back-end development. Alongside my core expertise in web technologies, I also have knowledge of ethical hacking, ensuring security-conscious development practices. I’m familiar with Java programming, and I bring a creative edge with an understanding of UI/UX principles, aiming to create user-friendly and visually appealing digital experiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                             <li><span>Web development</span><br>Web/App interfaces</li>
+                              <li><span>App development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>App development Training Myself</li>
+                             <li><span>2024 - 2025</span><br>Work as a freelancer</li>
+                              <li><span>2023 - 2024</span><br>UI/UX Training at Phoenix College</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>+2 from Adarsh Secondary School.</li>
+                             <li><span>2023</span><br>BIT from Phoenix College and Continue.</li>
+                              <li><span>2023 - 2024</span><br>UI/UX Design and Web development</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I offer modern, responsive, and user-friendly web design services tailored to your brand and goals. Whether you're launching a new website or redesigning an existing one, I focus on creating visually appealing layouts with smooth user experiences. Using a blend of design principles and UX/UI knowledge, I ensure your website not only looks great but also works efficiently across all devices. Security is also a priority, supported by my background in ethical hacking and development best practices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>I provide intuitive and visually engaging UI/UX design services focused on enhancing user experience and interface clarity. From wireframing to final prototypes, I design interfaces that are user-friendly, responsive, and aligned with your brand identity. With a strong understanding of user behavior and interaction patterns, I aim to create designs that are both beautiful and functional—ensuring seamless navigation, usability, and satisfaction across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App development</h2>
+                    <p>I offer app development services focused on creating smooth, responsive, and secure mobile applications. Whether it's Android or cross-platform, I combine clean code practices with user-centric design to build apps that perform well and look great. With knowledge of Java programming and UI/UX design, I ensure the app’s functionality and design work together seamlessly. My background in ethical hacking also helps me build apps with security in mind from day one.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- projects -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png" alt="">
+                 <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png" alt="">
+                 <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>magarpiyush184@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9829666697</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/piyushranamagar1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/magar_piyu53507"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/piyush.mgr?igsh=MXN0bmVnbmlsZDRhag=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/piyush-magar-b653bb330/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form> 
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Piyush Rana © 2025, All Rights Reserved <i class="fa-solid fa-heart"></i> !</p>
+    </div>
+ </div>
+ <!-- Back to Top Button -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- script start  -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwW1V0ILw8r75IeV0zVnTKp71LbGSInOCqwJnkhW6sIVRTG6jngIBJUpF4NFhl6x6YffA/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new   FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+      })
+</script>
+
+<script>
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTopBtn");
+    btn.style.display = window.scrollY > 100 ? "block" : "none";
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
